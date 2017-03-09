@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #383838;
+}
+
+.tabsConteiner {
+    border-radius: 5px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+.tabs__title {
+    background: #f3f3f3;
+    display: inline-block;
+    height: 28px;
+    margin: auto;
+    width: 19.7%;
+    text-align: center;
+    padding-top: 12px;
+    text-decoration: none;
+    color: #000;
+}
+
+.tabsContent {
+    background: #f3f3f3;
+    height: 300px;
+    width: 640px;
+    margin-top: 1px;
+    margin-left: 300px;
+}
+
+.tabs__text {
+    padding-top: 10px;
+    padding-left: 15px;
+    height: 200px;
+}
+
+.active {
+    background: #8099bb;
+    color: #fff;
+    transition: 1s;
+}
